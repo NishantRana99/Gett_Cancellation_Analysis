@@ -9,11 +9,13 @@ Business Problem
 3.	System rejections
 4.	Orders failing before a driver is assigned
 5.	Long waiting times, high ETAs, driver shortages, or peak-hour demand may cause these failures.
+   
 This project answers the following key questions:
 1.	Why do orders fail?
 2.	When do failures occur most frequently?
 3.	How long do customers wait before cancelling?
 4.	Does ETA influence cancellation behaviour?
+
  Data Used
 
 Two datasets are used in this analysis:
@@ -27,26 +29,3 @@ Tools & Technologies
 4.	Matplotlib
 5.	Jupyter Notebook
 
-Analysis Performed
-
-The project follows a structured analytical workflow:
-1.	Data understanding and quality checks
-2.	Merging orders and offers datasets
-3.	Cleaning and renaming coded columns
-4.	Distribution analysis of failed orders
-5.	Hourly trend analysis of failures
-6.	Average time to cancellation analysis
-7.	ETA analysis by hour
-Key Insights
-1.	Most failed orders occur before a driver is assigned, indicating supply shortages.
-2.	Order failures peak during high-demand evening hours.
-3.	Customers wait longer before cancelling when a driver is assigned, showing higher trust.
-4.	Higher ETA strongly correlates with increased cancellations.
-5.	A significant number of orders never receive any driver offers.
- Business Recommendations
-1.	Increase driver availability during peak demand hours.
-2.	Reduce ETA through improved driver matching and dynamic pricing.
-3.	Monitor high-cancellation hours to proactively manage supply.
-4.	Improve early-stage order handling to reduce pre-assignment cancellations
-Conclusion
-This project demonstrates how operational data can be transformed into meaningful business insights. By analysing cancellation behaviour, driver assignment patterns, and ETA trends, the analysis highlights key areas where Gett can improve efficiency, reduce failed orders, and enhance customer experience.
