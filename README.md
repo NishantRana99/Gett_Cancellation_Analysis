@@ -8,7 +8,7 @@ Business Problem
 2.	Customer cancellations
 3.	System rejections
 4.	Orders failing before a driver is assigned
-5.	These failures may be caused by long waiting times, high ETAs, driver shortages, or peak-hour demand.
+5.	Long waiting times, high ETAs, driver shortages, or peak-hour demand may cause these failures.
 This project answers the following key questions:
 1.	Why do orders fail?
 2.	When do failures occur most frequently?
