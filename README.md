@@ -34,7 +34,7 @@ Tools & Technologies
 5.	Jupyter Notebook
 
 6.	**Findings**
-7.	
+   
 Why do orders fail?
 
 Orders mainly fail due to customer cancellations and system rejections, with the highest number of failures occurring before a driver is assigned.
