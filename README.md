@@ -21,7 +21,9 @@ This project answers the following key questions:
 Two datasets are used in this analysis:
 1.	data_orders.csv
 2.	Order time
+   
 The datasets are merged using order_gk to create a unified view of each order and its driver offers.
+
 Tools & Technologies
 1.	Python
 2.	Pandas
